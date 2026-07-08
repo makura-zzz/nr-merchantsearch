@@ -28,7 +28,7 @@ PCではGoogle Chromeおよび Microsoft Edge、
 ・常設商人の販売装備を確認  
 ・常設商人は表示と非表示が切り替えられます  
 ・村商人の販売装備を確認  
-・大空洞商人の販売装備を確認<br>  
+・大空洞商人の販売装備を確認  
 ・装備のお気に入り登録  
 ・お気に入り装備を上部へ表示  
 ・不要な装備の非表示設定  
@@ -42,7 +42,7 @@ PCではGoogle Chromeおよび Microsoft Edge、
 
 ## 参考（Reference）
 装備・商人テーブル情報は、以下のwikiの情報を参考に作成しています。  
-エルデンリングナイトレイン攻略wiki│神攻略<br>    
+エルデンリングナイトレイン攻略wiki│神攻略  
 https://kamikouryaku.net/nightreign_eldenring/  
 
 ## Author
