@@ -42,7 +42,7 @@ PCではGoogle Chromeおよび Microsoft Edge、
 
 ## 参考（Reference）
 装備・商人テーブル情報は、以下のwikiの情報を参考に作成しています。  
-エルデンリングナイトレイン攻略wiki│神攻略  
+エルデンリングナイトレイン攻略wiki│神攻略   
 https://kamikouryaku.net/nightreign_eldenring/  
 
 ## Author
