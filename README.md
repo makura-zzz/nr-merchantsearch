@@ -24,7 +24,7 @@ PCではGoogle Chromeおよび Microsoft Edge、
 3. 優先度が高い装備はお気に入り登録できます。
 4. 不要な装備は非表示設定できます。
 
-##主な機能（Features）
+## 主な機能（Features）
 ・常設商人の販売装備を確認
 ・常設商人は表示と非表示が切り替えられます
 ・村商人の販売装備を確認
@@ -33,7 +33,6 @@ PCではGoogle Chromeおよび Microsoft Edge、
 ・お気に入り装備を上部へ表示
 ・不要な装備の非表示設定
 ・非表示装備の再表示も可能
-
 
 ## 注意事項
 本ページは個人制作の非公式ファンツールです。
@@ -46,12 +45,9 @@ PCではGoogle Chromeおよび Microsoft Edge、
 エルデンリングナイトレイン攻略wiki│神攻略
 https://kamikouryaku.net/nightreign_eldenring/
 
-
 ## Author
 
 まくら（https://x.com/MakuraPiro）
-
-
 
 ## 免責（Disclaimer)
 
