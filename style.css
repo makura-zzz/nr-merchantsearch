@@ -1,0 +1,332 @@
+/* ===========================
+	Version1　全体
+=========================== */
+
+body{
+    margin: 0;
+    padding: 40px 0;
+
+    background:
+        radial-gradient(circle at top, rgba(70,90,140,.15), transparent 45%),
+        linear-gradient(to bottom,#101626 0%,#090d17 55%,#05070d 100%);
+
+    color:#d7e3ff;
+
+    font-family:
+        "Yu Mincho",
+        "Hiragino Mincho ProN",
+        "Yu Gothic UI",
+        serif;
+}
+
+/*　コンテンツ　*/
+
+.container{
+    width:min(1100px,90%);
+    margin:auto;
+}
+
+/*　タイトル　*/
+
+h1{
+    text-align:center;
+    font-size:2.2rem;
+    font-weight:500;
+    letter-spacing:.18em;
+    color:#eef5ff;
+    margin-bottom:40px;
+    text-shadow:
+        0 0 8px rgba(180,210,255,.18);
+
+}
+
+/*　見出し　*/
+
+h2{
+    margin-top:42px;
+    margin-bottom:18px;
+    color:#c9d8ff;
+    font-size:1.2rem;
+    font-weight:400;
+    letter-spacing:.08em;
+}
+
+
+/*　フッター　*/
+
+.siteFooter{
+	margin-top:70px;
+	padding:25px 0;
+	text-align: center;
+	font-size:.75rem;
+	letter-spacing:.08em;
+	color:rgba(200,220,255,.45);
+	line-height:1.8;
+}
+
+/* ===========================
+   Version 2   テーブル
+=========================== */
+
+.itemTable{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:18px;
+    background:
+        rgba(8,14,28,.72);
+    border:
+        1px solid rgba(150,180,240,.18);
+    box-shadow:
+        0 0 18px rgba(120,150,220,.08);
+}
+
+/* 表の見出し */
+
+.itemTable th{
+    padding:14px 12px;
+    color:#d9e5ff;
+    font-size:.95rem;
+    font-weight:400;
+    letter-spacing:.12em;
+    background:
+        rgba(80,110,160,.12);
+    border-bottom:
+        1px solid rgba(160,190,240,.25);
+}
+
+/* 表の内容 */
+
+.itemTable td{
+    padding:13px 12px;
+    color:#c8d6f5;
+    border-bottom:
+        1px solid rgba(150,170,220,.12);
+}
+
+
+/* 行 */
+
+.itemTable tr{
+    transition:
+        background .2s ease;
+}
+
+
+/* ===========================
+   選択肢ボックス
+=========================== */
+
+select{
+    appearance:none;
+    min-width:260px;
+    padding:
+        10px 38px 10px 14px;
+
+    color:#dce8ff;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(40,55,90,.9),
+            rgba(10,15,30,.9)
+        );
+
+    border:
+        1px solid rgba(150,180,240,.35);
+    border-radius:2px;
+
+    font-family:
+        "Yu Gothic UI",
+        sans-serif;
+
+    letter-spacing:.08em;
+    cursor:pointer;
+}
+
+select option {
+	background:#101626;
+	color:#d7e3ff;
+}
+
+/* 選択中 */
+
+select:focus{
+    outline:none;
+    border-color:
+        rgba(190,220,255,.65);
+    box-shadow:
+        0 0 10px rgba(160,200,255,.25);
+}
+
+
+/* ===========================
+   checkbox
+=========================== */
+
+
+input[type="checkbox"]{
+    appearance:none;
+    width:18px;
+    height:18px;
+    margin:0;
+    vertical-align:middle;
+
+    border:
+        1px solid rgba(170,200,255,.45);
+
+    background:
+        rgba(10,15,30,.8);
+
+    cursor:pointer;
+    position:relative;
+}
+
+
+/* チェック後 */
+
+input[type="checkbox"]:checked{
+    background:
+        rgba(130,170,240,.45);
+
+    box-shadow:
+        0 0 8px rgba(150,200,255,.35);
+}
+
+
+/* チェックマーク */
+
+input[type="checkbox"]:checked::after{
+    content:"";
+    position:absolute;
+    left:5px;
+    top:1px;
+    width:5px;
+    height:10px;
+
+    border-right:
+        2px solid #eef5ff;
+    border-bottom:
+        2px solid #eef5ff;
+
+    transform:
+        rotate(45deg);
+}
+
+/* ===========================
+   セクション間
+=========================== */
+
+#merchant,
+#village,
+#hollows{
+    margin-top:35px;
+}
+
+/* セクション見出し */
+
+#merchant h2,
+#village h2,
+#hollows h2{
+    display:flex;
+    align-items:center;
+    gap:16px;
+}
+
+/* 見出し横線 */
+
+#merchant h2::after,
+#village h2::after,
+#hollows h2::after{
+    content:"";
+    flex:1;
+    height:1px;
+    background:
+        linear-gradient(
+            to right,
+            rgba(170,200,255,.35),
+            transparent
+        );
+}
+
+/* ===========================
+   お気に入り強調表示
+=========================== */
+
+.itemTable tr.favoriteRow{
+	background: rgba(120,150,220,.10);
+}
+
+.itemTable tr.favoriteRow td:first-child{
+	box-shadow:
+		inset 3px 0 0
+		rgba(180,210,255,.65);
+	}  
+
+/* ===========================
+   テーブル列幅
+=========================== */
+
+.itemTable{
+    table-layout:fixed;
+}
+
+
+/* お気に入り */
+.itemTable th:nth-child(1),
+.itemTable td:nth-child(1){
+    width:10%;
+    text-align:center;
+}
+
+
+/* 装備名 */
+.itemTable th:nth-child(2),
+.itemTable td:nth-child(2){
+    width:25%;
+}
+
+/* 付帯内容 */
+.itemTable th:nth-child(3),
+.itemTable td:nth-child(3){
+    width:55%;
+}
+
+/* 非表示 */
+.itemTable th:nth-child(4),
+.itemTable td:nth-child(4){
+    width:10%;
+    text-align:center;
+
+}
+
+/*スマホ用*/
+
+@media (max-width:600px){
+    .itemTable{
+        font-size:.85rem;
+    }
+
+    .itemTable th,
+    .itemTable td{
+        padding:10px 6px;
+    }
+
+    .itemTable th:nth-child(1),
+    .itemTable td:nth-child(1){
+        width:12%;
+    }
+
+    .itemTable th:nth-child(2),
+    .itemTable td:nth-child(2){
+        width:28%;
+    }
+
+    .itemTable th:nth-child(3),
+    .itemTable td:nth-child(3){
+        width:48%;
+    }
+
+    .itemTable th:nth-child(4),
+    .itemTable td:nth-child(4){
+        width:12%;
+    }
+}
