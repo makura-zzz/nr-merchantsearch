@@ -10,7 +10,7 @@ Japanese only.
 ![商人検索画面](./images/screenshot_pc.png)
 
 ## 概要（Overview）
-ELDENRING NIGHTREIGNの商人販売テーブルを確認するための非公式ファンツールです。
+ELDENRING NIGHTREIGNの商人販売テーブルを確認するための非公式ファンツールです。  
 複数存在する商人のテーブルから、目的の装備が販売されるかを素早く確認できるよう作成しています。
 
 ## Requirement
