@@ -45,7 +45,7 @@ PCではGoogle Chromeおよび Microsoft Edge、
 エルデンリングナイトレイン攻略wiki│神攻略  
 https://kamikouryaku.net/nightreign_eldenring/  
 
-## Author
+## 作者（Author）
 
 まくら（https://x.com/MakuraPiro）
 
