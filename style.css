@@ -265,10 +265,7 @@ input[type="checkbox"]:checked::after{
    テーブル列幅
 =========================== */
 
-.itemTable{
-    table-layout:fixed;
-}
-
+.itemTable{ table-layout:fixed; }
 
 /* お気に入り */
 .itemTable th:nth-child(1),
@@ -277,56 +274,61 @@ input[type="checkbox"]:checked::after{
     text-align:center;
 }
 
-
 /* 装備名 */
 .itemTable th:nth-child(2),
-.itemTable td:nth-child(2){
-    width:25%;
-}
+.itemTable td:nth-child(2){ width:25%; }
 
 /* 付帯内容 */
 .itemTable th:nth-child(3),
-.itemTable td:nth-child(3){
-    width:55%;
-}
+.itemTable td:nth-child(3){	width:55%; }
 
 /* 非表示 */
 .itemTable th:nth-child(4),
 .itemTable td:nth-child(4){
-    width:10%;
-    text-align:center;
-
+	width:10%;
+	text-align:center;
 }
 
 /*スマホ用*/
 
 @media (max-width:600px){
-    .itemTable{
-        font-size:.85rem;
-    }
 
-    .itemTable th,
-    .itemTable td{
-        padding:10px 6px;
-    }
+body{ font-size:1.05rem; }
 
-    .itemTable th:nth-child(1),
-    .itemTable td:nth-child(1){
-        width:12%;
-    }
+h1 {
+	font-size:1.8re,;
+	letter-spacing:.08em;
+	}
 
-    .itemTable th:nth-child(2),
-    .itemTable td:nth-child(2){
-        width:28%;
-    }
+label,
+select { font-size:1rem; }
 
-    .itemTable th:nth-child(3),
-    .itemTable td:nth-child(3){
-        width:48%;
-    }
+select {
+	width:100%;
+	min-width:0;
+	margin:8px 0;
+	}
 
-    .itemTable th:nth-child(4),
-    .itemTable td:nth-child(4){
-        width:12%;
-    }
+input[type="checkbox"]{
+	width:24px;
+	height:24px;
+	}
+
+.itemTable{ font-size:.95rem; }
+
+.itemTable th,
+.itemTable td{ padding:10px 6px; }
+
+.itemTable th:nth-child(1),
+.itemTable td:nth-child(1){ width:12%; }
+
+.itemTable th:nth-child(2),
+.itemTable td:nth-child(2){ width:28%; }
+
+.itemTable th:nth-child(3),
+.itemTable td:nth-child(3){ width:48%; }
+
+.itemTable th:nth-child(4),
+.itemTable td:nth-child(4){ width:12%; }
+
 }
